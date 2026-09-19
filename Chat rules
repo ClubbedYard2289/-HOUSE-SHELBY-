@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HOUSE SHELBY — Правила</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background:
+                radial-gradient(circle at top, #2a2113 0%, #0b0906 45%, #050403 100%);
+            color: #e8e0d0;
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 20px 50px;
+            border-bottom: 1px solid #8c6a2e;
+        }
+
+        .crown {
+            font-size: 42px;
+            color: #d6ad55;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #d6ad55;
+            font-size: clamp(38px, 8vw, 72px);
+            letter-spacing: 8px;
+            text-shadow: 0 0 20px rgba(214, 173, 85, 0.25);
+        }
+
+        .subtitle {
+            margin-top: 12px;
+            color: #aaa08e;
+            letter-spacing: 4px;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 35px 20px 60px;
+        }
+
+        .card {
+            background: rgba(20, 17, 12, 0.92);
+            border: 1px solid #5e4824;
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 22px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #d6ad55;
+            font-size: 25px;
+            border-bottom: 1px solid #4d3b20;
+            padding-bottom: 10px;
+        }
+
+        ul,
+        ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .important {
+            color: #d6ad55;
+            font-weight: bold;
+        }
+
+        .admin {
+            border-color: #80612b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px 20px;
+            color: #756f64;
+            border-top: 1px solid #3d301b;
+            letter-spacing: 2px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 50px 15px 35px;
+            }
+
+            h1 {
+                letter-spacing: 4px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="crown">♛</div>
+
+    <h1>HOUSE SHELBY</h1>
+
+    <div class="subtitle">
+        ПРАВИЛА СООБЩЕСТВА
+    </div>
+</header>
+
+
+<main>
+
+    <section class="card">
+        <h2>Ⅰ. Общие правила</h2>
+
+        <ul>
+            <li>Уважайте всех участников сообщества.</li>
+
+            <li>Запрещены оскорбления, травля и намеренные провокации.</li>
+
+            <li>Не создавайте конфликты и не провоцируйте участников.</li>
+
+            <li>Не засоряйте чат спамом и бессмысленными сообщениями.</li>
+
+            <li>Реклама разрешена только с разрешения администрации.</li>
+
+            <li>Запрещён контент 18+ и материалы незаконного характера.</li>
+
+            <li>Запрещено публиковать чужие персональные данные.</li>
+        </ul>
+    </section>
+
+
+    <section class="card">
+        <h2>Ⅱ. Голосовые каналы</h2>
+
+        <ul>
+            <li>Уважайте участников голосового канала.</li>
+
+            <li>Не включайте громкую музыку и посторонние звуки.</li>
+
+            <li>Запрещены намеренный шум и помехи другим участникам.</li>
+
+            <li>Не используйте голосовой канал для травли или провокаций.</li>
+
+            <li>Во время разбирательства соблюдайте указания модератора.</li>
+        </ul>
+    </section>
+
+
+    <section class="card admin">
+        <h2>Ⅲ. Полномочия администрации</h2>
+
+        <ul>
+            <li>Выносить предупреждения.</li>
+
+            <li>Выдавать текстовые и голосовые муты.</li>
+
+            <li>Удалять сообщения, нарушающие правила.</li>
+
+            <li>Ограничивать доступ к отдельным каналам.</li>
+
+            <li>Временно исключать участников.</li>
+
+            <li>Выдавать временный или постоянный бан.</li>
+
+            <li>Рассматривать жалобы и спорные ситуации.</li>
+
+            <li>Отменять наказание, если оно было выдано ошибочно.</li>
+        </ul>
+    </section>
+
+
+    <section class="card">
+        <h2>Ⅳ. Ограничения администрации</h2>
+
+        <ul>
+            <li>Администрация не должна использовать полномочия для личной мести.</li>
+
+            <li>Личные конфликты не должны влиять на решения администрации.</li>
+
+            <li>Наказание должно соответствовать нарушению.</li>
+
+            <li>Запрещено злоупотреблять административными полномочиями.</li>
+        </ul>
+    </section>
+
+
+    <section class="card">
+        <h2>Ⅴ. Система наказаний</h2>
+
+        <ol>
+            <li>Предупреждение.</li>
+
+            <li>Мут.</li>
+
+            <li>Временный бан.</li>
+
+            <li>Постоянный бан.</li>
+        </ol>
+
+        <p>
+            <span class="important">Важно:</span>
+            за серьёзные нарушения администрация может сразу применить более строгое наказание.
+        </p>
+
+        <p>
+            Попытка обхода наказания может привести к повторному или более длительному наказанию.
+        </p>
+    </section>
+
+
+    <section class="card admin">
+        <h2>Ⅵ. Как стать администратором</h2>
+
+        <ul>
+            <li>Состоять в сообществе определённое время.</li>
+
+            <li>Быть активным участником.</li>
+
+            <li>Соблюдать правила сообщества.</li>
+
+            <li>Не иметь серьёзных нарушений.</li>
+
+            <li>Уметь спокойно разрешать конфликты.</li>
+
+            <li>Не злоупотреблять полномочиями.</li>
+
+            <li>Пользоваться доверием участников и администрации.</li>
+        </ul>
+
+        <h2>Этапы</h2>
+
+        <ol>
+            <li>Подача заявки.</li>
+
+            <li>Рассмотрение заявки администрацией.</li>
+
+            <li>Испытательный период.</li>
+
+            <li>Получение полного статуса администратора.</li>
+        </ol>
+    </section>
+
+
+    <section class="card">
+        <h2>Ⅶ. Обращение к администрации</h2>
+
+        <p>
+            Если вы считаете, что получили наказание ошибочно,
+            обратитесь к администрации и спокойно опишите ситуацию.
+        </p>
+
+        <p>
+            <span class="important">
+                Конфликты решаются спокойно. Уважение — основа HOUSE SHELBY.
+            </span>
+        </p>
+    </section>
+
+</main>
+
+
+<footer>
+    HOUSE SHELBY<br>
+    RESPECT • LOYALTY • DISCIPLINE
+</footer>
+
+</body>
+</html>
